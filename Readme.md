@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Кирилл Свиридчук](https://up.htmlacademy.ru/adaptive/11/user/232547).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Походня](https://htmlacademy.ru/profile/id166319).
 
 ---
 
