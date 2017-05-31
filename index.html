@@ -7,25 +7,24 @@
   <body>
 	  <header class="main-header">
 	  	<h1 class="main-header__title-hidden">Pink - Меняет мир вокруг</h1><!--title скрыт!-->
-				<div class="main-header-wrapper">
-					<div class="main-header__logo">
-						<img src="http://placehold.it/75x22" alt="Pink">
-					</div>
-					<button class="main-header__btn-toggle  main-header__btn-toggle--close" type="button"></button>
+		    <div class="main-header__logo">
+				  <img src="http://placehold.it/75x22" alt="Pink">
 				</div>
+				<button class="main-header__btn-toggle  main-header__btn-toggle--close" type="button"></button>
 				<nav class="main-nav">
 					<div class="main-nav__container">
 						<ul class="main-nav__list">
-							<li class="main-nav__item">Главная</li>
-							<li class="main-nav__item">Фотографии</li>
-							<li class="main-nav__item">Конкурс</li>
-							<li class="main-nav__item">html academy</li>
+              <li class="main-nav__item"><a>Главная</a></li>
+              <li class="main-nav__item"><a href="#">Фотографии</a></li>
+              <li class="main-nav__item"><a href="#">Конкурс</a></li>
+              <li class="main-nav__item"><a href="#">html academy</a></li>
 						</ul>
 					</div>
 				</nav>
+        <div class="main-header__mobil"></div>
 	  </header>
 		<div class="load-prog">
-			<button class="load-btn load-btn--active" type="submit">Скачать приложение</button>
+		  <button class="load-btn load-btn--active" type="submit">Скачать приложение</button>
 			<ul class="load-prog__list">
 				<li class="load-prog__item"></li>
 				<li class="load-prog__item"></li>
@@ -36,7 +35,7 @@
 			</p>
 		</div>
 		<section class="promo-descr">
-			<h1 class="promo-descr__title-hidden"></h1><!--title скрыт!-->
+			<h2 class="promo-descr__title-hidden"></h2><!--title скрыт!-->
 			<div class="promo-descr__container">
 				<div class="promo-descr__wrapper">
 					<span class="promo-descr__help">
@@ -48,33 +47,34 @@
 				</div>
 			</div>
 			<article class="promo-descr__about">
-				<div class="promo-descr__wrapper">
-					<b class="promo-descr__title">
+				<ul>
+					<li class="promo-descr__title">
 					Поднимает настроение
-					</b>
+					</li>
 					<p class="promo-descr__note">
 					Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
 					</p>
-					<b class="promo-descr__title">
+					<li class="promo-descr__title">
 					Меняет мир вокруг
-					</b>
+					</li>
 					<p class="promo-descr__note">
 					Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
 					</p>
-					<b class="promo-descr__title">
+					<li class="promo-descr__title">
 					Заводит новых друзей
-					</b>
+					</li>
 					<p class="promo-descr__note">
 					Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых
 					</p>
-				</div>
+				</ul>
+        <div class="promo-descr__img-mob"></div>
 			</article>
 			<article class="promo-descr__comments">
 				<b class="promo_descr__user">
 					Николай Петров
 				</b>
 				<p class="promo-descr__comment">
-					«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»	
+					«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
 				</p>
 				<ul class="promo-descr__slider-comments">
 					<li class="promo_descr__pointer promo_descr__pointer--active"></li>
@@ -82,64 +82,65 @@
 					<li class="promo_descr__pointer"></li>
 				</ul>
 			</article>
+      <article class="promo-descr__tabl">
 			<table class="promo-descr__price">
-				<caption class="promo_descr__cap">
+				<th class="promo_descr__cap">
 					<b>Стандарт</b>
 					<span>3,99 USD</span>
-				</caption>
+				</th>
 				<tr>
-					<td class="promo-descr__col-1">розовый фильтр</td>
-					<td class="promo-descr__col-2"></td>
+					<td>розовый фильтр</td>
 				</tr>
 				<tr>
-					<td class="promo-descr__col-1">смайлики</td>
-					<td class="promo-descr__col-2"></td>
+					<td>смайлики</td>
 				</tr>
 				<tr>
-					<td class="promo-descr__col-1">комментарии</td>
-					<td class="promo-descr__col-2 promo-descr__col-2--close"></td>
+					<td>комментарии</td>
 				</tr>
 			</table>
+      </article>
 			<ul class="promo-descr__slider-price">
 				<li class="promo-descr__pointer"></li>
 				<li class="promo-descr__pointer promo_descr__pointer--active"></li>
 				<li class="promo-descr__pointer"></li>
 			</ul>
-			<span  class="promo-descr__faq">
-				 Остались вопросы? Свяжитесь с нами!		
-			</span>
-		</section>
-		<footer class="main-footer">
-			<h1 class="main-footer__title">Контактная информация:</h1><!--title скрыт-->
-			<div class="main-footer__container">
-				<b class="main-footer__contact-title">
+    </section>
+    <article class="contacts-inf">
+		  <span  class="contacts-inf__faq">
+				 Остались вопросы? Свяжитесь с нами!
+		  </span>
+			<h2 class="contacts-inf__title">Контактная информация:</h2><!--title скрыт-->
+			<div class="contacts-inf__container">
+				<b class="contacts-inf__contact-title">
 				 Звоните:
 				</b>
-				<p class="main-footer__contact-text">
+				<p class="contacts-inf__contact-text">
 					<a href="tel:+7 (812) 555-66-66" class="phone">
 						<span class="phone__text">
 					+7 (812) 555-66-66
 						</span>
 					</a>
 				</p>
-				<b class="main-footer__contact-title">
+				<b class="contacts-inf__contact-title">
 				 Пишите:
 				</b>
-				<p class="main-footer__contact-text">
-					<span class="mail-text">
+				<p class="contacts-inf__contact-text">
+          <a href="mailto:mail@htmlacademy.ru" class="mail">
+					 <span class="mail__text">
 				 mail@htmlacademy.ru
-					</span>
+					 </span>
+          </a>
 				</p>
-				<b class="main-footer__contact-title">
+				<b class="contacts-inf__contact-title">
 				 Приезжайте в гости:
 				</b>
-				<p class="main-footer__contact-text">
+				<p class="contacts-inf__contact-text">
 					<span class="adress-text">
 				 ул. Большая Конюшенная, 19/8
 					</span>
 				</p>
 			</div>
-		</footer>
-		<footer class="content-map"></footer>
+		<div class="contacts-inf__content-map"></div>
+    </article>
   </body>
 </html>
