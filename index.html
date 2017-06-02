@@ -1,12 +1,156 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
+  	<meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+	  <header class="main-header">
+	  	<h1 class="main-header__title-hidden">Pink - Меняет мир вокруг</h1><!--title скрыт!-->
+		    <div class="main-header__logo">
+				  <img src="http://placehold.it/75x22" alt="Pink">
+				</div>
+				<button class="main-header__btn-toggle  main-header__btn-toggle--close" type="button"></button>
+				<nav class="main-nav">
+					<div class="main-nav__container">
+						<ul class="main-nav__list">
+              <li class="main-nav__item"><a>Главная</a></li>
+              <li class="main-nav__item"><a href="#">Фотографии</a></li>
+              <li class="main-nav__item"><a href="#">Конкурс</a></li>
+              <li class="main-nav__item"><a href="#">html academy</a></li>
+						</ul>
+					</div>
+				</nav>
+        <div class="main-header__mobil"></div>
+	  </header>
+		<div class="load-prog">
+		  <button class="load-btn load-btn--active" type="submit">Скачать приложение</button>
+			<ul class="load-prog__list">
+				<li class="load-prog__item"></li>
+				<li class="load-prog__item"></li>
+				<li class="load-prog__item"></li>
+			</ul>
+			<p class="load-prog__descr">
+					Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+			</p>
+		</div>
+		<section class="promo-descr">
+			<h2 class="promo-descr__title-hidden"></h2><!--title скрыт!-->
+			<div class="promo-descr__container">
+				<div class="promo-descr__wrapper">
+					<span class="promo-descr__help">
+					Устали от серости мегаполиса?
+					</span>
+					<span class="promo-descr__help">
+					Нам есть, что вам предложить!
+					</span>
+				</div>
+			</div>
+			<section class="promo-descr__about">
+				<div class="promo-descr__item">
+					<b class="promo-descr__title">
+					Поднимает настроение
+					</b>
+					<p class="promo-descr__note">
+					Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+					</p>
+        </div>
+        <div class="promo-descr__item">
+					<b class="promo-descr__title">
+					Меняет мир вокруг
+					</b>
+					<p class="promo-descr__note">
+					Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+					</p>
+        </div>
+        <div class="promo-descr__item">
+					<b class="promo-descr__title">
+					Заводит новых друзей
+					</b>
+					<p class="promo-descr__note">
+					Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых
+					</p>
+				</div>
+        <div class="promo-descr__img-mob"></div>
+			</section>
+			<article class="promo-descr__comments">
+				<b class="promo_descr__user">
+					Николай Петров
+				</b>
+				<p class="promo-descr__comment">
+					«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+				</p>
+				<ul class="slider">
+					<li class="slider__toggle slider__toggle--active"></li>
+					<li class="slider__toggle"></li>
+					<li class="slider__toggle"></li>
+				</ul>
+			</article>
+      <article class="promo-descr__tabl">
+			<table class="promo-descr__price">
+        <thead>
+          <tr>
+				    <th class="promo_descr__cap">
+					   <b>Стандарт</b>
+					   <span>3,99 USD</span>
+				    </th>
+          </tr>
+        </thead>
+        <tbody>
+				  <tr>
+					 <td>розовый фильтр</td>
+				  </tr>
+				  <tr>
+					 <td>смайлики</td>
+				  </tr>
+				  <tr>
+					 <td>комментарии</td>
+				  </tr>
+        </tbody>
+			</table>
+      </article>
+			<ul class="promo-descr__slider-price">
+				<li class="promo-descr__pointer"></li>
+				<li class="promo-descr__pointer promo_descr__pointer--active"></li>
+				<li class="promo-descr__pointer"></li>
+			</ul>
+    </section>
+    <article class="contacts-inf">
+		  <span  class="contacts-inf__faq">
+				 Остались вопросы? Свяжитесь с нами!
+		  </span>
+			<h2 class="contacts-inf__title">Контактная информация:</h2><!--title скрыт-->
+			<div class="contacts-inf__container">
+				<b class="contacts-inf__contact-title">
+				 Звоните:
+				</b>
+				<p class="contacts-inf__contact-text">
+					<a href="tel:+7 (812) 555-66-66" class="phone">
+						<span class="phone__text">
+					+7 (812) 555-66-66
+						</span>
+					</a>
+				</p>
+				<b class="contacts-inf__contact-title">
+				 Пишите:
+				</b>
+				<p class="contacts-inf__contact-text">
+          <a href="mailto:mail@htmlacademy.ru" class="mail">
+					 <span class="mail__text">
+				 mail@htmlacademy.ru
+					 </span>
+          </a>
+				</p>
+				<b class="contacts-inf__contact-title">
+				 Приезжайте в гости:
+				</b>
+				<p class="contacts-inf__contact-text">
+					<span class="adress-text">
+				 ул. Большая Конюшенная, 19/8
+					</span>
+				</p>
+			</div>
+		<div class="contacts-inf__content-map"></div>
+    </article>
   </body>
 </html>
